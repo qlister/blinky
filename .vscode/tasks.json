@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"args":[
+				"--features", "v2",
+				"--target", "thumbv7em-none-eabihf"
+			],
+			"group": "build",
+			"label": "rust: cargo build"
+		}
+	]
+}
